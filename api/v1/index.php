@@ -376,15 +376,22 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
+                    /*
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
                         "type" => "to"
                     )
+                    */
+                    array(
+                        "email" => $mail_to,
+                        "name" => $property->agencia,
+                        "type" => "to"
+                    ),
                     array(
                         "email" => $mail_cc,
                         "name" => $property->agencia,
-                        "type" => "cc"
+                        "type" => "to"
                     )
                 ),
                 "headers" => array(
@@ -480,15 +487,22 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
+                    /*
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
                         "type" => "to"
                     )
+                    */
+                    array(
+                        "email" => $mail_to,
+                        "name" => $property->agencia,
+                        "type" => "to"
+                    ),
                     array(
                         "email" => $mail_cc,
                         "name" => $property->agencia,
-                        "type" => "cc"
+                        "type" => "to"
                     )
                 ),
                 "headers" => array(
@@ -539,13 +553,6 @@ $app = new \Slim\App($container);
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    /*
-                    array(
-                        "email" => $mail_to,
-                        "name" => $property->agencia,
-                        "type" => "to"
-                    )
-                    */
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to
@@ -591,15 +598,22 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
+                    /*
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
                         "type" => "to"
                     )
+                    */
+                    array(
+                        "email" => $mail_to,
+                        "name" => $property->agencia,
+                        "type" => "to"
+                    ),
                     array(
                         "email" => $mail_cc,
                         "name" => $property->agencia,
-                        "type" => "cc"
+                        "type" => "to"
                     )
                 ),
                 "headers" => array(
@@ -650,18 +664,6 @@ $app = new \Slim\App($container);
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    /*
-                    array(
-                        "email" => $mail_to,
-                        "name" => $property->agencia,
-                        "type" => "to"
-                    ),
-                    array(
-                        "email" => $mail_cc,
-                        "name" => $property->agencia,
-                        "type" => "cc"
-                    )
-                    */
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to

@@ -30,27 +30,27 @@ class __TwigTemplate_7fb7e76ad218d513cd8f851e26d7163fb5ae1c20320bdcb7567e8c40845
                     <div id=\"content-section-form-contact\">
                         ";
         // line 13
-        $this->loadTemplate("contacto/container.twig", "contacto/container.twig", 13, "542863967")->display($context);
+        $this->loadTemplate("contacto/container.twig", "contacto/container.twig", 13, "1622225155")->display($context);
         // line 14
         echo "                    </div>
                     <div class=\"contact_sidebar\">
                         <div class=\"contact_social\">
-                            <p class=\"contact_social_title\">Domicilio Vallarta</p>
-                            <p>Av. Vallarta No. 5300.</p>
-                            <p>Col. Jardines Vallarta. Zapopan, Jal.
-                            <p>Tel. 01(33)3777-1989</p>
-                            <p>CP. 45027</p>
+                            <p class=\"contact_social_title\">Domicilio Colima</p>
+                            <p>Av. Felipe Sevilla No. 536.</p>
+                            <p>Col. Lomas de Circunvalación. Colima, Colima.</p>
+                            <p>Tel. 01(31)2316-3263</p>
+                            <p>CP. 28010</p>
                         <br>
-                            <p class=\"contact_social_title\">Domicilio López Mateos</p>
-                            <p>Av. López Mateos Núm. 5654</p>
-                            <p>Col. Arboledas, Zapopan, Jalisco.</p>
-                            <p>Tel. 01-(33)-3884-8200</p>
-                            <p>CP. 45070</p>
+                            <p class=\"contact_social_title\">Domicilio Manzanillo</p>
+                            <p>BLV. Miguel de la Madrid Hurtado 1058</p>
+                            <p>Col. Soleares Manzanillo, Colima</p>
+                            <p>Tel. 01 314 33 30 370</p>
                         <br>
                             <p class=\"contact_social_title\">Redes sociales</p>
                             <p>Comparte tus experiencias con la comunidad Suzuki</p>
-                            <div class=\"social fb\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook');\" href=\"http://facebook.com/SuzukiGuadalajaraLopezMateosYAvVallarta\" target=\"_blank\">Suzuki GDL</a></div>
-                            <div class=\"social tw\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Instagram');\" href=\"http://twitter.com/Suzuki_Gdl\" target=\"_blank\">Suzuki GDL</a></div>
+                            <div class=\"social fb\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook_Colima');\" href=\"https://www.facebook.com/SuzukiColimaOficial/\" target=\"_blank\">Facebook Colima</a></div>
+                            <div class=\"social fb\" style=\"margin-top: 10px;\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook_Manzanillo');\" href=\"https://www.facebook.com/SuzukiManzanilloOficial/\" target=\"_blank\">Facebook Manzanillo</a></div>
+                            <div class=\"social in\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Instagram_Gdl');\" href=\"https://www.instagram.com/suzukiguadalajara/\" target=\"_blank\">Instagram</a></div>
                         </div>
                     </div>
                     <div class=\"clearfix\"></div>
@@ -80,7 +80,7 @@ class __TwigTemplate_7fb7e76ad218d513cd8f851e26d7163fb5ae1c20320bdcb7567e8c40845
 
 
 /* contacto/container.twig */
-class __TwigTemplate_7fb7e76ad218d513cd8f851e26d7163fb5ae1c20320bdcb7567e8c4084536405_542863967 extends Twig_Template
+class __TwigTemplate_7fb7e76ad218d513cd8f851e26d7163fb5ae1c20320bdcb7567e8c4084536405_1622225155 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -133,22 +133,22 @@ class __TwigTemplate_7fb7e76ad218d513cd8f851e26d7163fb5ae1c20320bdcb7567e8c40845
 /*                     </div>*/
 /*                     <div class="contact_sidebar">*/
 /*                         <div class="contact_social">*/
-/*                             <p class="contact_social_title">Domicilio Vallarta</p>*/
-/*                             <p>Av. Vallarta No. 5300.</p>*/
-/*                             <p>Col. Jardines Vallarta. Zapopan, Jal.*/
-/*                             <p>Tel. 01(33)3777-1989</p>*/
-/*                             <p>CP. 45027</p>*/
+/*                             <p class="contact_social_title">Domicilio Colima</p>*/
+/*                             <p>Av. Felipe Sevilla No. 536.</p>*/
+/*                             <p>Col. Lomas de Circunvalación. Colima, Colima.</p>*/
+/*                             <p>Tel. 01(31)2316-3263</p>*/
+/*                             <p>CP. 28010</p>*/
 /*                         <br>*/
-/*                             <p class="contact_social_title">Domicilio López Mateos</p>*/
-/*                             <p>Av. López Mateos Núm. 5654</p>*/
-/*                             <p>Col. Arboledas, Zapopan, Jalisco.</p>*/
-/*                             <p>Tel. 01-(33)-3884-8200</p>*/
-/*                             <p>CP. 45070</p>*/
+/*                             <p class="contact_social_title">Domicilio Manzanillo</p>*/
+/*                             <p>BLV. Miguel de la Madrid Hurtado 1058</p>*/
+/*                             <p>Col. Soleares Manzanillo, Colima</p>*/
+/*                             <p>Tel. 01 314 33 30 370</p>*/
 /*                         <br>*/
 /*                             <p class="contact_social_title">Redes sociales</p>*/
 /*                             <p>Comparte tus experiencias con la comunidad Suzuki</p>*/
-/*                             <div class="social fb"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook');" href="http://facebook.com/SuzukiGuadalajaraLopezMateosYAvVallarta" target="_blank">Suzuki GDL</a></div>*/
-/*                             <div class="social tw"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Instagram');" href="http://twitter.com/Suzuki_Gdl" target="_blank">Suzuki GDL</a></div>*/
+/*                             <div class="social fb"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook_Colima');" href="https://www.facebook.com/SuzukiColimaOficial/" target="_blank">Facebook Colima</a></div>*/
+/*                             <div class="social fb" style="margin-top: 10px;"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook_Manzanillo');" href="https://www.facebook.com/SuzukiManzanilloOficial/" target="_blank">Facebook Manzanillo</a></div>*/
+/*                             <div class="social in"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Instagram_Gdl');" href="https://www.instagram.com/suzukiguadalajara/" target="_blank">Instagram</a></div>*/
 /*                         </div>*/
 /*                     </div>*/
 /*                     <div class="clearfix"></div>*/
